@@ -1,6 +1,6 @@
 # pull-request
 
-#conclude <stdio.h>
+#include <stdio.h>
 
 int main()
 {
@@ -27,7 +27,7 @@ int main()
     return 0;
 }
 
-#conclude <stdio.h>
+#include <stdio.h>
 
 int main()
 {
@@ -42,14 +42,14 @@ int main()
     return 0;
 }
 
-# conclude <stdio.h>
+# include <stdio.h>
 
 int main(){
     printf("Hello I am learning C");
     return 0;
 }
 
-#conclude<stdio.h>
+#include<stdio.h>
 
 int main()
 {
