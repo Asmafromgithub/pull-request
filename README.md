@@ -7,7 +7,7 @@ int main()
     int i, age;
     for ( i = 0; i < 10; i++)
     {
-        printf("%d\nEnter your age", i);
+        printf("%d\nEnter your age\n", i);
         scanf("%d", &age);
         if (age>10)
         {
@@ -16,13 +16,13 @@ int main()
         /*if (age>10)
         {
             continue;
-            printf("GJH");
+            printf("GJH\n");
         }*/
         if (age>10)
         {
             continue;  
         }
-        printf("Try to print");
+        printf("Try to print\n");
         }
     return 0;
 }
@@ -32,7 +32,7 @@ int main()
 int main()
 {
     int num, index = 0;
-    printf("Enter a number");
+    printf("Enter a number\n");
     scanf("%d", &num);
     do
     {
@@ -45,7 +45,7 @@ int main()
 # include <stdio.h>
 
 int main(){
-    printf("Hello I am learning C");
+    printf("Hello I am learning C\n");
     return 0;
 }
 
@@ -56,7 +56,7 @@ int main()
     int i=0;
     for ( i = 0; i < 10; i++)
     {
-        printf("%d", i);
+        printf("%d\n", i);
     }
     return 0;
 }
